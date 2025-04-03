@@ -1,0 +1,12 @@
+[package]
+name = "gielis"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.15", default-features = false }
+bevy_reflect_derive = "0.15"
+
+[dev-dependencies]
+bevy = "0.15"
+bevy-inspector-egui = "0.30"
